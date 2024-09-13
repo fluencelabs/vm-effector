@@ -1,0 +1,5 @@
+aqua Services declares *
+
+
+service VmEffector("vm_effector"):
+  version() -> string
