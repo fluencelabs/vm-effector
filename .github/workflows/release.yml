@@ -95,8 +95,6 @@ jobs:
 
       - name: Setup fcli
         uses: fluencelabs/setup-fluence@v1
-        with:
-          version: 0.15.28
 
       - name: Build archive
         run: fluence module pack ./src/services/vm_effector/vm_effector/ --no-input -d .
